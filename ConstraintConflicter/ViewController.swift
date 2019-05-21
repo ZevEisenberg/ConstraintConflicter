@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         let myView = UIView()
+        // Setting the accessibilityIdentifier will give this
+        // view a label in Auto Layout debug output.
         myView.accessibilityIdentifier = "My cool view"
 
         view.addSubview(myView)
